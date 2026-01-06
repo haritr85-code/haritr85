@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KLNCE Login</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Logo */
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 160px;
+    }
+
+    /* Login box */
+    .login-container {
+      background-color: #ffffff;
+      padding: 30px;
+      width: 320px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- KLNCE Logo -->
+  <div class="logo">
+    <img src="https://www.bing.com/ck/a?!&&p=fc96906e72bb57b9a5924a6a0f8cccf1a033d05a9af43e4ad0ca6850bf712fcfJmltdHM9MTc2NzY1NzYwMA&ptn=3&ver=2&hsh=4&fclid=2ba37b88-1d32-6e4a-085b-6eef1c7f6ff4&u=a1L2ltYWdlcy9zZWFyY2g_cT1rbG5jZStjb2xsZWdlK2xvZ28maWQ9RDQ1MUNENzEwNTUwOTRCQTRGRTRFRkVFRkRBQTZEMUYxNDhEQzczOSZGT1JNPUlBQ0ZJUg&ntb=1" alt="KLNCE Lkogo">
+  </div>
+
+  <!-- Login Form -->
+  <div class="login-container">
+    <h2>Login</h2>
+
+    <!-- GitHub Pages compatible -->
+    <form onsubmit="return false;">
+      <label>Username</label>
+      <input type="text" required>
+
+      <label>Password</label>
+      <input type="password" required>
+
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+</body>
+</html>
